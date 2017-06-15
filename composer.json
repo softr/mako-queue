@@ -1,0 +1,21 @@
+{
+    "name": "softr/mako-queue",
+    "description": "Simple queue package for Mako Framework",
+    "keywords": ["mako", "framework", "database", "queue"],
+    "homepage": "https://github.com/softr/mako-queue",
+    "authors": [
+        {
+            "name": "Agência Softr Ltda",
+            "email": "contato@softr.com.br",
+            "homepage": "http://www.softr.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "softr\\MakoQueue\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    }
+}
