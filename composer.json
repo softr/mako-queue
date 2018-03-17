@@ -1,5 +1,6 @@
 {
     "name": "softr/mako-queue",
+    "type": "mako-package",
     "description": "Simple queue package for Mako Framework",
     "keywords": ["mako", "framework", "database", "queue"],
     "homepage": "https://github.com/softr/mako-queue",
@@ -12,10 +13,10 @@
     ],
     "autoload": {
         "psr-4": {
-            "softr\\MakoQueue\\": "src"
+            "softr\\MakoQueue\\": "classes"
         }
     },
     "require": {
-        "php": ">=5.4"
+        "composer/installers": "*"
     }
 }
